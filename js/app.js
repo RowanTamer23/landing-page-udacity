@@ -12,7 +12,19 @@
  * JS Standard: ESlint
  * 
 */
-console.log('hi')
+const navUpdate = () => {
+let list = document.querySelector('#navbar__list');
+let sections = document.querySelectorAll('section');
+sections.forEach(s=>{
+    const navLink = document.createElement('li');
+    const sectionTitle = s.getAttribute('data-nav')
+    const SectionId = s. getAttribute('id');
+    navLink.classList.add('menu__link');
+    navLink.innerHTML=`<a style='color:black; text-decoration:none;' href=${'#'+SectionId}>${sectionTitle}</a>`
+    list.appendChild(navLink)
+})
+}
+navUpdate();
 
 /**
  * Comments should be present at the beginning of each procedure and class.
