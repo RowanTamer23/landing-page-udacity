@@ -12,6 +12,7 @@
  * JS Standard: ESlint
  * 
 */
+console.log('hi')
 
 /**
  * Comments should be present at the beginning of each procedure and class.
