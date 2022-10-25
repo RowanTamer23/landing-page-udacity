@@ -2,12 +2,25 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+- [usage](#usage)
+- [features](#features)
+- [learned](#learned)
 
-## Instructions
+## usage
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+educational usage
 
-To get started, open `js/app.js` and start building out the app's functionality
+## features
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+I used some features such as:
+
+1- intersection observer
+2- scroll into
+3- for each
+4- query selector
+5- append
+6- getAttribute
+
+## learned
+
+what I learned in this project is how to fix some problems, how to really make what goes in my mind true. I found it hard to apply what I have in mind and to find the best code for it, but at last I managed to learn more and increase my knowledge.
