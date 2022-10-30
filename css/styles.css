@@ -9,9 +9,7 @@
 */
 
 /* ---- Base Rules ---- */
-html {
-  scroll-behavior: smooth;
-}
+
 body {
   background: rgb(136, 203, 171);
   background: linear-gradient(
@@ -86,7 +84,7 @@ section {
   text-decoration: none;
   color: #000;
 }
-.active {
+#navbar__list .active {
   background: #333;
   color: #fff;
   transition: ease 0.3s all;
@@ -96,6 +94,7 @@ section {
   background: #333;
   color: #fff;
   transition: ease 0.3s all;
+  cursor: pointer;
 }
 
 /* Header Styles */

@@ -42,12 +42,12 @@ const navUpdate = () => {
   sections.forEach((s) => {
     const navLink = document.createElement("li");
     const sectionTitle = s.getAttribute("data-nav");
-    const SectionId = s.getAttribute("id");
     navLink.classList.add("menu__link");
     navLink.setAttribute("data-nav", sectionTitle);
-    navLink.innerHTML = `<a style='color:inherit; text-decoration:none;' href=${
-      "#" + SectionId
-    }>${sectionTitle}</a>`;
+    navLink.innerHTML = sectionTitle;
+    navLink.addEventListener("click", () => {
+      s.scrollIntoView({ behavior: "smooth" });
+    });
     list.appendChild(navLink);
     observer.observe(s);
   });
